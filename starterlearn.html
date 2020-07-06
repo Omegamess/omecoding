@@ -1,0 +1,37 @@
+<html>
+    <title>Omecoding - Starter</title>
+    <body style=" font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: chartreuse;">
+        <h1>Hello newbie, are you ready to learn HTML?</h1>
+        <h2>Let's start with basics!</h2>
+        <h3>What HTML really is?</h3>
+        <br>
+        <p>Html is a coding language that you can use to create websites</p>
+        <p>Html's friends are JavaScript (JS) and CSS!</p>
+        <p>It works so that Html shows in website things</p>
+        <p>Then css makes them look more stylish and more nice</p>
+        <p>and javascript makes them act somehow</p>
+        <hr>
+        <br>
+        <br>
+        <h4>This text is made with html</h4>
+        <h4 id="changecolortxt">This text is made with html but when you move your mouse on me, my color changes, thanks to css</h4>
+        <a onclick="alert('This is made with JavaScript (js)')">Click me!</a>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <button onclick="changepage()" style="width: 200px; height: 75px; font-size: 30px;">Move On...</button>
+        <script>function changepage() {
+            alert('This alert box and page changing is made with js');
+            window.location.href="starter2.html";
+        }
+        
+        </script>
+
+<style>
+    #changecolortxt:hover {
+color: chartreuse;
+    }
+</style>
+    </body>
+</html>
