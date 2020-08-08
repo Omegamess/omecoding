@@ -33,7 +33,7 @@ function googleTranslateElementInit() {
         <div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
             Enter username:<br>
             <form name="login" style="margin: 5px 0px 0px 0px;">
-                <input type="text" name="usrnm" size="25" onkeydown="if(event.keyCode==13)" event.keyCode=9;" style="width: 300px; height: 50px; font-size: 45px;"><br>
+                <input type="text" name="usrnm" autocomplete="off" size="25" onkeydown="if(event.keyCode==13)" event.keyCode=9;" style="width: 300px; height: 50px; font-size: 45px;"><br>
             <p>Enter password:</p>
                 <input type="password" name="pass" size="25" onkeydown="if(event.keyCode==13) event.keyCode=9;" style="width: 300px; height: 50px; font-size: 45px;"><br>
             <input type="button" value="LogIn" style="width: 300px; height: 50px; border-radius: 50px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
